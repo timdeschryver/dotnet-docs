@@ -1,7 +1,3 @@
-﻿using System.Text;
+﻿// Display the number of command line arguments.
+Console.WriteLine(args.Length); 
 
-StringBuilder builder = new();
-builder.AppendLine("Hello");
-builder.AppendLine("World!");
-
-Console.WriteLine(builder.ToString());
